@@ -1,3 +1,32 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #F7F7F7;/*Фоновый цвет*/
+  padding: 15px;
+  font-family: 'Inter', sans-serif;
+
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  background: #F7F7F7;
+  box-shadow: 2px 4px 22px 4px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+}
+.header {
+  color: white;
+  padding: 40px 42px 145px;
+  background: url('../Img/header.jpg')no-repeat center / cover;
+  border-radius: 0px 0px 90px 90px; 
+}
+.hello{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.hello-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
